@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import fileinput
 
-f = fileinput.input('male.txt')
+f = fileinput.input('female.txt')
 _weight = []
 _height = []
 for line in f:
