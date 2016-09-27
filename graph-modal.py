@@ -17,7 +17,7 @@ for line in f:
         _f_weight.append(round(float(temp[1]),2))
 
 
-'''
+
 # blue is female
 plt.plot(_f_height,_f_weight, 'bo')
 #red is male
@@ -26,4 +26,3 @@ plt.ylabel("weight")
 plt.xlabel("height")
 
 plt.show()
-'''
